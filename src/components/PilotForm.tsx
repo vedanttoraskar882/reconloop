@@ -269,10 +269,6 @@ export const PilotForm: React.FC<PilotFormProps> = ({ initialTier, onSuccess, is
             )}
           </div>
 
-          {/* Privacy Message for Form */}
-          <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
-            Prototype notice: information submitted through this demonstration form is stored locally in this browser.
-          </div>
 
           {/* Submit Button */}
           <button
